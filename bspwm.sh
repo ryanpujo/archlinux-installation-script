@@ -27,7 +27,8 @@ curl https://raw.githubusercontent.com/gh0stzk/dotfiles/master/RiceInstaller -o 
 chmod +x RiceInstaller
 ./RiceInstaller
 
-sudo pacman -S --noconfirm xorg sddm firefox vlc papirus-icon-theme
+sudo pacman -S --noconfirm xorg sddm firefox vlc papirus-icon-theme mtpfs gvfs-mtp
+yay -S jmtpfs
 
 sudo systemctl enable sddm
 /bin/echo -e "\e[1;32mREBOOTING IN 5..4..3..2..1..\e[0m"
