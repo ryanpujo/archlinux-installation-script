@@ -5,11 +5,11 @@ hwclock --systohc
 sed -i '178s/.//' /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
+locale-gen
 echo "archlinux" >> /etc/hostname
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
-echo root:password | passwd
 
 # You can add xorg to the installation packages, I usually add it at the DE or WM install script
 # You can remove the tlp package if you are installing on a desktop or vm
@@ -36,7 +36,6 @@ systemctl enable firewalld
 systemctl enable acpid
 
 useradd -m ryanpujo
-echo ryanpujo:password | passwd
 usermod -aG libvirt ryanpujo
 
 echo "ryanpujo ALL=(ALL) ALL" >> /etc/sudoers.d/ryanpujo
