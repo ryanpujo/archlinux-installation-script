@@ -14,7 +14,7 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
 
-sudo pacman -Syu xorg cinnamon lightdm xreader xed nemo alacritty gst-libav archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk ttf-fira-code go rhythmbox dina-font tamsyn-font terminus-font
+sudo pacman -Syu xorg cinnamon sddm xreader xed nemo alacritty gst-libav archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk ttf-fira-code go rhythmbox dina-font tamsyn-font terminus-font
 yay -S jmtpfs visual-studio-code-bin insomnia-bin etcher-bin ttf-ms-fonts xviewer
 
-sudo systemctl enable lightdm
+sudo systemctl enable sddm
