@@ -19,6 +19,10 @@ pacman -S grub grub-btrfs efibootmgr networkmanager network-manager-applet dialo
 pacman -S --noconfirm xf86-video-amdgpu
 # pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
+# uncomment these 2 lines to enable multilib repository
+# echo "[multilib]" >> /etc/pacman.conf
+# echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB #change the directory to /boot/efi is you mounted the EFI partition at /boot/efi
 
 grub-mkconfig -o /boot/grub/grub.cfg
