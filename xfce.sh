@@ -20,8 +20,8 @@ makepkg -si
 # optional dependency for lutris
 # sudo pacman -Syu gamemode innoextract lib32-gamemode lib32-vkd3d vkd3d
 
-sudo pacman -Syu xorg xorg-xinit xarchiver dconf-editor alacarte arc-gtk-theme arc-solid-gtk-theme accountsservice arc-icon-theme xfce4 xfce4-goodies exo lightdm lightdm-slick-greeter lightdm-gtk-greeter p7zip unrar xz kitty gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-ugly gstreamer-vaapi archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk ttf-fira-code go libreoffice-still rhythmbox terminus-font powerline-fonts ttf-font-awesome adobe-source-code-pro-fonts ttf-jetbrains-mono noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
-yay -S jmtpfs visual-studio-code-bin zramd insomnia-bin etcher-bin ttf-ms-fonts ttf-meslo-nerd-font-powerlevel10k
+sudo pacman -Syu xorg xorg-xinit xarchiver dconf-editor alacarte arc-gtk-theme arc-solid-gtk-theme accountsservice arc-icon-theme xfce4 xfce4-goodies exo lightdm lightdm-slick-greeter lightdm-gtk-greeter gtk-engine-murrine gtk-engines p7zip unrar xz kitty gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-ugly gstreamer-vaapi archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk ttf-fira-code go libreoffice-still rhythmbox terminus-font powerline-fonts ttf-font-awesome adobe-source-code-pro-fonts ttf-jetbrains-mono noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
+yay -S jmtpfs visual-studio-code-bin lightdm-settings zramd insomnia-bin etcher-bin ttf-ms-fonts ttf-meslo-nerd-font-powerlevel10k
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
