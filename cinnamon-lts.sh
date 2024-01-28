@@ -23,7 +23,7 @@ nvm install --lts
 # lutris
 # sudo pacman -Syu lutris
 # optional dependency for lutris
-# sudo pacman -S gamemode innoextract lib32-gamemode lib32-vkd3d python-protobuf vkd3d 
+# sudo pacman -S gamemode innoextract lib32-gamemode lib32-vkd3d python-protobuf vkd3d lib32-vulkan-mesa-layers steam-native-runtime vulkan-mesa-layers
 
 sudo pacman -Syu xorg xorg-xinit cinnamon metacity gnome-shell lightdm lightdm-gtk-greeter lightdm-slick-greeter gtk-engine-murrine gtk-engines p7zip unrar xz nemo-fileroller xreader xed nemo kitty libreoffice kubectl minikube gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-ugly gstreamer-vaapi archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk php ttf-fira-code go rhythmbox terminus-font powerline-fonts ttf-font-awesome adobe-source-code-pro-fonts ttf-jetbrains-mono noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
 yay -S jmtpfs visual-studio-code-bin lightdm-settings insomnia-bin etcher-bin ttf-ms-fonts xviewer ttf-meslo-nerd-font-powerlevel10k

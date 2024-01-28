@@ -21,7 +21,7 @@ makepkg -si
 # lutris
 # sudo pacman -Syu lutris
 # optional dependency for lutris
-# sudo pacman -S gamemode innoextract lib32-gamemode lib32-vkd3d python-protobuf vkd3d 
+# sudo pacman -S gamemode innoextract lib32-gamemode lib32-vkd3d python-protobuf vkd3d lib32-vulkan-mesa-layers steam-native-runtime vulkan-mesa-layers 
 
 sudo pacman -Syu xorg xorg-xinit plasma plasma-wayland-session sddm ark kwrite p7zip unrar xz libreoffice gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-ugly gstreamer-vaapi archlinux-wallpaper firefox vlc papirus-icon-theme mtpfs gvfs-mtp dbeaver docker docker-compose jdk17-openjdk ttf-fira-code go rhythmbox terminus-font powerline-fonts ttf-font-awesome adobe-source-code-pro-fonts ttf-jetbrains-mono noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
 yay -S jmtpfs visual-studio-code-bin insomnia-bin etcher-bin ttf-ms-fonts ttf-meslo-nerd-font-powerlevel10k
